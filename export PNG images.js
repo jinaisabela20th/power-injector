@@ -9,6 +9,9 @@ const nextConfig = {
     emotion: true,
     styledComponents: true
   },
+// sellecting whitch images will be sorted //
+      "go.lintTool": "golangci-lint",
+    "go.inferGopath": false,
 
 
 module.exports = nextConfig
