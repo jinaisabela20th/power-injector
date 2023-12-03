@@ -21,3 +21,5 @@ module.exports = nextConfig
   images: {
     domains: ['ipfs.io']
   },
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/\\.next/'],
+  testEnvironment: 'jsdom',
